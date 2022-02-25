@@ -6,11 +6,11 @@ preRun:
 preMerge:
   pattern:
     - "./src/*.js"
-    - "./tests/**/*.spec.js"
+    - "./tests/*"
 postMerge:
   pattern:
     - "./src/*.js"
-    - "./tests/**/*.spec.js"
+    - "./tests/*"
 postRun:
      command:
         - yarn --version
